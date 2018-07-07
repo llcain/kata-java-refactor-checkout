@@ -11,7 +11,7 @@ public class CheckOut {
    }
 
    public int total() {
-      return -1;
+      return 0;
    }
 
    public void scan(char good) {
