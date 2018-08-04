@@ -7,13 +7,48 @@ package kata.refactor;
 
 public class CheckOut {
 
+   int totalSoFar = 0;
+
    public CheckOut() {
    }
 
    public int total() {
-      return 0;
+      return totalSoFar;
    }
 
    public void scan(char good) {
+
+      System.out.println("\nThe character is: " + good);
+
+      totalSoFar = 0;
+
+//         totalSoFar = totalSoFar + 50;
+
+      // later
+
+
+//        if (good == 'A') {
+//            totalSoFar = totalSoFar + 50;
+//        } else {
+//            totalSoFar = totalSoFar + 30;
+//        }
+
+      // useful much later
+
+//        switch (good) {
+//            case 'A':
+//                totalSoFar = totalSoFar + 50;
+//                break;
+//            case 'B':
+//                totalSoFar = totalSoFar + 30;
+//                break;
+//            case 'C':
+//                totalSoFar = totalSoFar + 20;
+//                break;
+//            case 'D':
+//                totalSoFar = totalSoFar + 15;
+//                break;
+//        }
    }
 }
+
