@@ -23,7 +23,7 @@ public class CheckOut {
       totalSoFar = 0;
 
 //         totalSoFar = totalSoFar + 50;
-
+// hi
       // later
 
 
