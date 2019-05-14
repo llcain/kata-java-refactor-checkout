@@ -8,6 +8,7 @@ package kata.refactor;
 public class CheckOut {
 
    int totalSoFar = 0;
+  // int myACounter = 0;
 
    public CheckOut() {
    }
@@ -20,7 +21,7 @@ public class CheckOut {
 
       System.out.println("\nThe character is: " + good);
 
-      totalSoFar = 0;
+      totalSoFar = totalSoFar + 50;
 
 //         totalSoFar = totalSoFar + 50;
 // hi
