@@ -21,11 +21,7 @@ public class CheckOut {
 
       System.out.println("\nThe character is: " + good);
 
-    if(good == 'A') {
-       totalSoFar = totalSoFar + 50;
-    }else{
-       totalSoFar = totalSoFar + 30;
-    }
+    totalSoFar = totalSoFar + 50;
 // hi
       // later
 
