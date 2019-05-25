@@ -36,7 +36,7 @@ public class CheckOut {
 //            totalSoFar = totalSoFar + 30;
 //        }
 
-       useful much later
+     //  useful much later
 
   //      switch (good) {
 //            case 'A':
