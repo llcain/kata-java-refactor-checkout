@@ -26,8 +26,8 @@ public class CheckOut {
 
 
 
- hi
-      // later
+ //hi
+       later
 
 
 //        if (good == 'A') {
