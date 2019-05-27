@@ -8,7 +8,7 @@ package kata.refactor;
 public class CheckOut {
 
    int totalSoFar = 0;
-//   int myACounter = 0;
+   int myACounter = 0;
 //   int myBCounter = 0;
 
    public CheckOut() {
@@ -26,8 +26,14 @@ public class CheckOut {
       switch (good) {
          case 'A':
 
-           totalSoFar = totalSoFar + 50;
-            break;
+            if (myACounter == 3) {
+               myACounter = 0;
+              totalSoFar = totalSoFar + 50;
+
+            } else {
+               totalSoFar = totalSoFar + 30;
+            }
+           break;
          case 'B':
 
             totalSoFar = totalSoFar + 30;
