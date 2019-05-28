@@ -27,11 +27,12 @@ public class CheckOut {
          case 'A':
 
             if (myACounter == 3) {
-               myACounter = 0;
-              totalSoFar = totalSoFar + 50;
 
-            } else {
-               totalSoFar = totalSoFar + 30;
+              totalSoFar = totalSoFar + 30;
+              myACounter = 0;
+
+            }else{
+               totalSoFar = totalSoFar + 20;
             }
            break;
          case 'B':
@@ -43,13 +44,16 @@ public class CheckOut {
             break;
          case 'D':
             totalSoFar = totalSoFar + 15;
+            break;
+
       }
 
 
 
 
+
  //hi
-       later
+       //later
 
 
 //        if (good == 'A') {
