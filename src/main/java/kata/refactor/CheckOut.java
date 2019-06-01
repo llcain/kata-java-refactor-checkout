@@ -22,39 +22,7 @@ public class CheckOut {
 
       System.out.println("\nThe character is: " + good);
 
-      switch (good) {
-         case 'A':
-
-            myACounter = myACounter + 1;
-
-            if (myACounter == 3) {
-               totalSoFar = totalSoFar + 30;
-               myACounter = 0;
-            }else {
-               totalSoFar =totalSoFar + 50;
-            }
-
-            break;
-         case 'B':
-
-            myBCounter = myBCounter + 1;
-
-            if (myBCounter == 2) {
-               totalSoFar = totalSoFar + 15;
-            }else {
-               totalSoFar = totalSoFar + 30;
-            }
-            break;
-         case 'C':
-            totalSoFar = totalSoFar + 20;
-            break;
-         case 'D':
-            totalSoFar = totalSoFar + 15;
-            break;
-      }
-
-
-
+      totalSoFar = totalSoFar + 50;
 
 
  //hi
