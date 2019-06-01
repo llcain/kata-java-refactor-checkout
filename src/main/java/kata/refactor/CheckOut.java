@@ -31,8 +31,9 @@ public class CheckOut {
                totalSoFar = totalSoFar + 30;
                myACounter = 0;
             }else {
-               totalSoFar = totalSoFar + 50;
+               totalSoFar =totalSoFar + 50;
             }
+
             break;
          case 'B':
 
@@ -51,8 +52,6 @@ public class CheckOut {
             totalSoFar = totalSoFar + 15;
             break;
       }
-
-
  //hi
        //later
 
