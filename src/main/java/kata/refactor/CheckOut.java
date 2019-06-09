@@ -29,7 +29,7 @@ public class CheckOut {
 
          if (myACounter == 3) {
             totalSoFar = totalSoFar + 30;
-
+            myACounter = 0;
          }else {
             totalSoFar = totalSoFar + 50;
          }
