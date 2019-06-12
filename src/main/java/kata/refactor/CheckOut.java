@@ -24,7 +24,14 @@ public class CheckOut {
 
    switch (good) {
       case 'A':
+
+         myACounter = myACounter + 1;
+
+         if (myACounter == 3) {
+            totalSoFar = totalSoFar + 30;
+         }else {
             totalSoFar = totalSoFar + 50;
+         }
          break;
       case 'B':
            totalSoFar = totalSoFar + 30;
