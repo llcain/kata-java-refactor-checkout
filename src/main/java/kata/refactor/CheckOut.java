@@ -35,7 +35,14 @@ public class CheckOut {
          }
          break;
       case 'B':
-           totalSoFar = totalSoFar + 30;
+
+         myBCounter = myBCounter + 1;
+
+         if (myBCounter == 2) {
+            totalSoFar = totalSoFar + 15;
+         }else {
+            totalSoFar = totalSoFar + 30;
+         }
          break;
       case 'C':
          totalSoFar = totalSoFar  + 20;
